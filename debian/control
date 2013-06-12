@@ -4,11 +4,11 @@ Priority: extra
 Maintainer: Alberto Gacías <agacias@zaragoza.es>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: 
+Homepage:
 
 Package: vx-ubiquity
 Architecture: all
-Pre-Depends: vx-divert
-Depends: ubiquity, ubiquity-slideshow  
+Pre-Depends: vx-utils
+Depends: ubiquity, ubiquity-slideshow
 Description: Ubiquity customization
  Vitalinux ubiquity customization
