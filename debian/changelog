@@ -1,3 +1,9 @@
+vx-ubiquity (1.1-1) unstable; urgency=low
+
+  * Changed logos
+
+ -- Alberto Gacías <agacias@zaragoza.es>  Sat, 07 Dec 2013 13:47:00 +0200
+
 vx-ubiquity (1.0-1) unstable; urgency=low
 
   * initial release
