@@ -1,3 +1,9 @@
+vx-ubiquity (1.2-1) unstable; urgency=low
+
+  * divert background
+
+ -- Alberto Gacías <agacias@zaragoza.es>  Sun, 08 Dec 2013 08:00:00 +0200
+
 vx-ubiquity (1.1-1) unstable; urgency=low
 
   * Changed logos
