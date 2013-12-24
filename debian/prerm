@@ -23,10 +23,11 @@ case "$1" in
        then
            vx-divert-remove $DPKG_MAINTSCRIPT_PACKAGE
 
-           rm /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-dark/apps/16/distributor-logo.svg
-           rm /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-dark/apps/22/distributor-logo.svg
-           rm /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-light/apps/16/distributor-logo.svg
-           rm /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-light/apps/22/distributor-logo.svg
+           rm /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-dark/apps/16/distributor-logo.svg || :
+           rm /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-dark/apps/22/distributor-logo.svg || :
+           rm /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-light/apps/16/distributor-logo.svg || :
+           rm /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-light/apps/22/distributor-logo.svg || :
+           rm /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-dark/apps/24/start-here.svg || :
        fi
     ;;
 

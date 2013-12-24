@@ -1,3 +1,9 @@
+vx-ubiquity (1.3-1) unstable; urgency=low
+
+  * divert start-here.svg
+
+ -- Alberto Gacías <agacias@zaragoza.es>  Mon, 09 Dec 2013 07:53:00 +0200
+
 vx-ubiquity (1.2-1) unstable; urgency=low
 
   * divert background
