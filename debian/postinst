@@ -20,23 +20,6 @@ set -e
 
 case "$1" in
     configure)
-
-        ln -s /usr/share/icons/distributor-logo.svg \
-              /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-dark/apps/16/distributor-logo.svg
-
-        ln -s /usr/share/icons/distributor-logo.svg \
-              /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-dark/apps/22/distributor-logo.svg
-
-        ln -s /usr/share/icons/distributor-logo.svg \
-              /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-light/apps/16/distributor-logo.svg
-
-        ln -s /usr/share/icons/distributor-logo.svg \
-              /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-light/apps/22/distributor-logo.svg
-
-        ln -s /usr/share/icons/distributor-logo.svg \
-              /usr/share/$DPKG_MAINTSCRIPT_PACKAGE/divert/usr/share/icons/ubuntu-mono-dark/apps/24/start-here.svg
-
-
         vx-divert-add $DPKG_MAINTSCRIPT_PACKAGE
     ;;
 
