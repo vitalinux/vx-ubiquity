@@ -9,6 +9,6 @@ Homepage:
 Package: vx-ubiquity
 Architecture: all
 Pre-Depends: vx-utils
-Depends: ubiquity, ubiquity-slideshow
+Depends: ubiquity, vx-ubiquity-slideshow
 Description: Ubiquity customization
  Vitalinux ubiquity customization
